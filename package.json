@@ -1,0 +1,29 @@
+{
+  "name": "arty-verify",
+  "version": "0.0.1",
+  "description": "Verify a commission contract built by Arty",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/arty-ooo/verify.git"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "ethereumjs-abi": "^0.6.5",
+    "express": "^4.16.2",
+    "express-brute": "^1.0.1",
+    "express-brute-redis": "0.0.1",
+    "helmet": "^3.11.0",
+    "hex2ascii": "0.0.3",
+    "redis": "^2.8.0",
+    "web3": "^0.20.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "@arty_ooo",
+  "license": "ISC"
+}
