@@ -128,7 +128,7 @@ app.post('/verify', bruteforce.prevent, function (req, res, next) {
 *
 */
 app.get('/', bruteforce.prevent, function (req, res, next) {
-  res.status(404).end();
+  res.status(200).end();
 })
 
 app.listen(process.env.PORT, function() {
